@@ -1,0 +1,24 @@
+{
+  "name": "algami",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarkarPriyanshu/Business_Card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://sarkarpriyanshu.github.io/Business_Card",
+  "bugs": {
+    "url": "https://github.com/SarkarPriyanshu/Business_Card/issues"
+  },
+  "homepage": "https://github.com/SarkarPriyanshu/Business_Card#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
