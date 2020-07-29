@@ -544,7 +544,7 @@ body {
 .Main-Container {
   position: relative;
   width: 47%;
-  /* height: 600px; */
+  height: 600px;
   border-radius: 5px;
   text-align: center;
   display: flex;
@@ -624,6 +624,7 @@ body {
   .Main-Container {
     width: 100%;
     border-radius: 0px;
+    height: fit-content;
   }
 }
 
