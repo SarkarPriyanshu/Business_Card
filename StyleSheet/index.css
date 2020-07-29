@@ -625,6 +625,16 @@ body {
     width: 100%;
     border-radius: 0px;
     height: fit-content;
+    position: static;
+    z-index: 1;
+  }
+  .Main-Content small {
+    font-size: medium;
+    color: #c65f63;
+  }
+
+  .Other-Contact-Options {
+    position: static;
   }
 }
 
