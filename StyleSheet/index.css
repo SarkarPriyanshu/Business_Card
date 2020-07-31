@@ -2,9 +2,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Gudea", sans-serif;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Gudea", sans-serif;
+  font-family: "Roboto", sans-serif; */
   /* font-family: "Gudea", sans-serif; */
+  font-family: "Varta", sans-serif;
 }
 
 .margin-auto {
@@ -455,6 +456,7 @@ body {
   justify-content: space-around;
   z-index: 1;
   padding: 2rem 0;
+  color: #0e153a;
 }
 
 @media (max-width: 768px) {
@@ -489,7 +491,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: aliceblue;
+  background-color: #e2f3f5;
   z-index: 3;
 }
 
@@ -549,7 +551,7 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  background-color: aliceblue;
+  background-color: #e2f3f5;
   z-index: 3;
 }
 
@@ -677,7 +679,7 @@ body {
 .Content-1-Div-Wrapper {
   position: static;
   right: 0px;
-  background-color: aliceblue;
+  background-color: #e2f3f5;
   border-radius: 5px;
   overflow: scroll;
   scroll-behavior: smooth;
@@ -739,6 +741,15 @@ body {
   padding: 1rem 0;
 }
 
+.About-Us-Span a {
+  text-decoration: none;
+  transition: color 1s ease;
+}
+
+.About-Us-Span a:hover {
+  color: #f9bf8f;
+}
+
 @media (max-width: 768px) {
   .Content-1-Div-Wrapper {
     padding: 2rem 0;
@@ -760,7 +771,7 @@ body {
 .Content-2-Div-Wrapper {
   position: absolute;
   right: 500px;
-  background-color: aliceblue;
+  background-color: #e2f3f5;
   border-radius: 5px;
   overflow: scroll;
   scroll-behavior: smooth;
@@ -780,6 +791,10 @@ body {
 
 .Content-2-Div-Inner-Wrapper h4 {
   margin: 0.5rem 0;
+}
+
+.Web-Design-Article {
+  box-shadow: 3px 4px 4px -4px #8abcc9;
 }
 
 @media (max-width: 768px) {
@@ -812,7 +827,7 @@ body {
 .Content-3-Div-Wrapper {
   position: absolute;
   right: 500px;
-  background-color: aliceblue;
+  background-color: #e2f3f5;
   border-radius: 5px;
   overflow: scroll;
   scroll-behavior: smooth;
@@ -839,6 +854,7 @@ body {
 .Gallery-Section figure {
   width: 49%;
   margin: 0 0.1rem;
+  box-shadow: 4px 5px 4px -4px #8abcc9;
 }
 
 @media (max-width: 768px) {
@@ -871,7 +887,7 @@ body {
 .Content-4-Div-Wrapper {
   position: absolute;
   right: 500px;
-  background-color: aliceblue;
+  background-color: #e2f3f5;
   border-radius: 5px;
   overflow: scroll;
   scroll-behavior: smooth;
